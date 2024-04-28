@@ -1,0 +1,16 @@
+body {
+    background: #171717;
+}
+
+.counter {
+    --color: #e00;
+    --dark-color: color-mix(in srgb, var(--color), black 85%);
+
+    font-family: monospace;
+    font-size: 4rem;
+    color: var(--color);
+    display: flex;
+    position: relative;
+    user-select: none;
+}
+
